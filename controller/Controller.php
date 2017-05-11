@@ -64,10 +64,12 @@ class Controller {
                 }
             }
         }
-
-        if (!$class) {
+        if ($class == '') {
             $class = new $this->config->defaultClass;
-            $class->index();			
+            $class->index();
+        } elseif (!$class) {
+            $class = new Error();
+            $class->error();			
         }
     }
     

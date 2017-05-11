@@ -88,7 +88,7 @@
                             <a class="page-scroll" href="<?php echo $this->base_url?>Contato">Contato</a>
                         </li>
                          <li>
-                            <a class="page-scroll" href="<?php echo $this->base_url?>Login">Login <i class="fa fa-sign-in"></i></a>
+                            <a class="page-scroll" href="<?php echo $this->base_url?>Login">Batcaverna <i class="fa fa-sign-in"></i></a>
                         </li>
                     </ul>
                 </div>
