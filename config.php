@@ -4,7 +4,7 @@
 unset($config);
 $config = new stdClass();
 $config->defaultClass = "Home";
-$config->base_url = '/daw2017/mickaelbraz';
+$config->base_url = '/daw2017/mickaelbraz/';
 $config->url = 'http://localhost/'.$config->base_url;
 $config->asset = $config->base_url.'view/templates/';
 $config->template = 'default';
